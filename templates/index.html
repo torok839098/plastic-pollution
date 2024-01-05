@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Interactive Charts with Metadata using D3.js</title>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+
+</head>
+<body>
+    <h1>Where Does the Plastic Go?</h1>
+
+    <div>
+        <label for="entitySelect">Select Entity:</label>
+        <select id="entitySelect"></select>
+    </div>
+
+    <div>
+        <label for="yearSelect">Select Year:</label>
+        <select id="yearSelect"></select>
+    </div>
+
+    <div id="metadata">
+        <h2>Metadata</h2>
+        <p id="metadataInfo"></p>
+    </div>
+
+    <div id="barChart">
+        <h2>Bar Chart</h2>
+        <svg id="barChartSvg" width="400" height="300"></svg>
+    </div>
+
+    <div id="donutChart">
+        <h2>Donut Chart</h2>
+        <svg id="donutChartSvg" width="300" height="300"></svg>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+

@@ -21,6 +21,9 @@ def get_recycle_data():
     recycle_data = list(collection.find({}, {'_id' : False}))
     return jsonify(recycle_data)
 
+@app.route('/bagcounter')
+def get_bag_counter():
+    return render_template('counter.html')
 
 if __name__ == '__main__':
     app.run(debug=True)

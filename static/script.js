@@ -23,7 +23,7 @@ fetch('/static/recycled_plastic.json')
 
         function updateCharts() {
             selectedEntity = entitySelect.value;
-            selectedYear = +yearSelect.value; // Convert to number
+            selectedYear = +yearSelect.value;
 
             const filteredData = data.find(entry => entry.Entity === selectedEntity && entry.Year === selectedYear);
 
@@ -47,7 +47,7 @@ fetch('/static/recycled_plastic.json')
                 { label: "Landfilled", value: filteredData.Landfilled }
             ];
 
-            const barChartSvg = d3.select("#barChartSvg");
+            const barChart = d3.select("#barChartSvg");
             const barWidth = 400;
             const barHeight = 300;
             const barMargin = { top: 20, right: 20, bottom: 30, left: 40 };
@@ -61,7 +61,7 @@ fetch('/static/recycled_plastic.json')
                 .domain([0, d3.max(barData, d => d.value)]).nice()
                 .range([barHeight - barMargin.bottom, barMargin.top]);
 
-            barChartSvg.append("g")
+            barChart.append("g")
                 .selectAll("rect")
                 .data(barData)
                 .join("rect")
@@ -71,16 +71,16 @@ fetch('/static/recycled_plastic.json')
                 .attr("width", x.bandwidth())
                 .attr("fill", "steelblue");
 
-            barChartSvg.append("g")
+            barChart.append("g")
                 .attr("transform", `translate(0,${barHeight - barMargin.bottom})`)
                 .call(d3.axisBottom(x));
 
-            barChartSvg.append("g")
+            barChart.append("g")
                 .attr("transform", `translate(${barMargin.left},0)`)
                 .call(d3.axisLeft(y));
 
             // Donut Chart
-            const donutChartSvg = d3.select("#donutChartSvg");
+            const donutChart = d3.select("#donutChartSvg");
             const donutWidth = 270;
             const donutHeight = 270;
             const donutRadius = Math.min(donutWidth, donutHeight) / 2;
@@ -98,7 +98,7 @@ fetch('/static/recycled_plastic.json')
                 .domain(barData.map(d => d.label))
                 .range(d3.schemeCategory10);
 
-            const donutArcs = donutChartSvg.selectAll(".arc")
+            const donutArcs = donutChart.selectAll(".arc")
                 .data(pie(barData))
                 .enter().append("g")
                 .attr("class", "arc")
@@ -111,7 +111,7 @@ fetch('/static/recycled_plastic.json')
                 .style("stroke-width", "2px");
                 
             // Legend
-            const legend = donutChartSvg.selectAll(".legend")
+            const legend = donutChart.selectAll(".legend")
                 .data(barData.map(d => d.label))
                 .enter().append("g")
                 .attr("class", "legend")
@@ -137,7 +137,5 @@ fetch('/static/recycled_plastic.json')
 
         updateCharts();
     })
-    .catch(error => {
-        console.error('Error fetching data:', error);
-    });
-
+    
+    

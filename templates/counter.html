@@ -1,37 +1,31 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Embedded Content with Title</title>
-    <style>
-        body {
-            text-align: center;
-        }
-        .title {
-            margin-top: 50px;
-        }
-        .iframe-container {
-            display: inline-block;
-            margin-top: 20px;
-        }
-        .image-container {
-            margin-top: 20px;
-        }
-        .image-container img {
-            width: 600px;
-            height: auto;
-        }
-    </style>
+    <meta charset="UTF-8">
+    <title>Plastic Bag Counter</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='counter.css') }}">
 </head>
 <body>
-    <h1 class="title">Number of Plastic Bags Produced Worldwide</h1>
-    <div class="iframe-container">
-        <iframe title='Number of plastic bags produced' src='https://www.theworldcounts.com/embeds/counters/105?background_color=white&color=black&font_family=%22Helvetica+Neue%22%2C+Arial%2C+sans-serif&font_size=14' style='border: none' height='100' width='300'></iframe>
-    </div>
-    <div class="image-container">
-        <img src="https://ghost.noissue.co/content/images/2022/05/AdobeStock_213943316.jpeg" alt="Plastic Bag Image">
-    </div>
+    <header>
+        <h1>Plastic Bag Counter</h1>
+    </header>
+
+    <main>
+        <section class="counter">
+            <iframe title="Number of plastic bags produced" src="https://www.theworldcounts.com/embeds/counters/105?background_color=white&color=black&font_family=%22Helvetica+Neue%22%2C+Arial%2C+sans-serif&font_size=14" style="border: none; width: 100%; height: 200px;"></iframe>
+        </section>
+
+        <section class="image-container">
+            <img src="https://ghost.noissue.co/content/images/2022/05/AdobeStock_213943316.jpeg" alt="Plastic pollution" style="max-width: 100%; height: auto;">
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Plastic Pollution</p>
+    </footer>
 </body>
 </html>
+
 
 
 

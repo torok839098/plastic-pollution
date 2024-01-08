@@ -1,5 +1,6 @@
 ##  Project 3
-* Project Name: Module 14 Challenge (Belly Button Biodiversity Analysis)
+* Project Name: Plastic Pollution
+* Environmental Impact: Teresa Salazar
 * Team Members: Judd Sanders, Michael Jardinico, Kimberly Toro, Teresa Salazar, Scott Chen 
 * Date submitted: Jan 8, 2024
 
@@ -10,14 +11,14 @@
 `The study utilized a comprehensive approach, incorporating a mix of quantitative and qualitative data. This included analysis of global pollution data, ecological studies, wildlife impact assessments, and socio-economic impacts of plastic waste. Furthermore, expert opinions, historical data trends, and future projections were also considered.`
 
 ### Working Files
-1. 
+1. plastic-pollution- Mismanaged plastic waste to ocean per capita (kg per year)
 2. 
 
 ### Instructions
 1. 
 2. 
     <!-- Add an image here -->
-    <!-- ![horizontal bar chart](https://github.com.png) -->
+    <!-- ![horizontal bar chart](sorted_high.png) -->
 
 3. 
     <!-- Add an image here -->
@@ -35,3 +36,12 @@
     <!-- Provide a link to the webpage here -->
 
 
+### References
+Meijer et al. (2021). More than 1000 rivers account for 80% of global riverine plastic emissions into the ocean. Science Advances. – processed by Our World in Data. “Plastic waste emitted to the ocean per capita” [plastic-pollution- Mismanaged plastic waste to ocean per capita (kg per year)]. Meijer et al. (2021). More than 1000 rivers account for 80% of global riverine plastic emissions into the ocean. Science Advances. [original data].
+
+National Oceanic and Atmospheric Administration:
+National Centers for Environmental Information provided Marine Microplastics Map Portal data [MarineMicroplastics.geojson,MarineMicroplastics_beaches.geojson]:
+https://www.ncei.noaa.gov/products/microplastics
+NOAA/ National Centers for Environmental Information (NCEI) (2022): Microplastics Database . [indicate subset used]. NOAA National Centers for Environmental Information. Accessed [date].
+
+Data Usage Disclaimer: Microplastics vary in origin, density, chemical properties, morphology, size and color. At present, there is no single combination of methods for sampling, extracting, analyzing, and reporting. Thus, the microplastic concentrations in the database may not always be comparable across studies. Users should consider the metadata in the archives which contain more details about the data records (such as sampling protocols and instrumental analysis) for further usability of the data.

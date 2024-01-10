@@ -52,3 +52,9 @@ https://www.ncei.noaa.gov/products/microplastics
 NOAA/ National Centers for Environmental Information (NCEI) (2022): Microplastics Database . [indicate subset used]. NOAA National Centers for Environmental Information. Accessed [date].
 
 Data Usage Disclaimer: Microplastics vary in origin, density, chemical properties, morphology, size and color. At present, there is no single combination of methods for sampling, extracting, analyzing, and reporting. Thus, the microplastic concentrations in the database may not always be comparable across studies. Users should consider the metadata in the archives which contain more details about the data records (such as sampling protocols and instrumental analysis) for further usability of the data.
+
+### Acknowledgements / Credits
+1. [plasticriverinput.csv](https://github.com/mjardinico/plastic-pollution/blob/main/Resources/plasticriverinput_area.csv). 
+`Meijer et al. (2021). More than 1000 rivers account for 80% of global riverine plastic emissions into the ocean. Science Advances. – processed by Our World in Data`
+
+2. 

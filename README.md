@@ -23,8 +23,7 @@
 ![Plastic Pollution - Global Crisis](https://github.com/mjardinico/plastic-pollution/blob/main/Resources/Plastic_Pollution.pdf)
 
 
-### Hosted Site (Heroku)
-[Heroku Hosted Site](https://plastic-pollution-1b0465c24684.herokuapp.com/) 
+### Hosted Site (Heroku) https://plastic-pollution-1b0465c24684.herokuapp.com/ 
 
 
 ### Instructions
@@ -33,8 +32,8 @@
 ![Mismanaged Plastic Waste in Ocean Per Capita](https://github.com/mjardinico/plastic-pollution/blob/main/Resources/mismanaged_plastic_waste_to_ocean_per_capita.png)
 
 
-2. Create Heatmap and map with markers to identify the 40,000 locations and top 1,000 locations that contribut to the plastic pollutions of river inputs around the world using Folium:  
-[Plastic Pollution of River Inputs](https://github.com/mjardinico/plastic-pollution/blob/main/folium_heatmap_marker.ipynb)
+2. Create Heatmap and map with markers to identify the 40,000 locations and top 1,000 locations that contribute to the plastic pollutions of river inputs around the world using Folium:  
+[folium_heatmap_marker.ipynb](https://github.com/mjardinico/plastic-pollution/blob/main/folium_heatmap_marker.ipynb)
     
     ![Plastic Pollution River Input Heatmap](https://github.com/mjardinico/plastic-pollution/blob/main/Resources/40000_locations_river_inputs.png)
 

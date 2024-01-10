@@ -11,8 +11,12 @@
 `The study utilized a comprehensive approach, incorporating a mix of quantitative and qualitative data. This included analysis of global pollution data, ecological studies, wildlife impact assessments, and socio-economic impacts of plastic waste. Furthermore, expert opinions, historical data trends, and future projections were also considered.`
 
 ### Working Files
-1. plastic-pollution- Mismanaged plastic waste to ocean per capita (kg per year)
-2. 
+1. Flask app - https://github.com/mjardinico/plastic-pollution/blob/main/app.py
+2. HTML files - https://github.com/mjardinico/plastic-pollution/tree/main/templates
+3. JavaScript / CSS files - https://github.com/mjardinico/plastic-pollution/tree/main/static
+
+### Hosted Site (Heroku)
+https://plastic-pollution-1b0465c24684.herokuapp.com/ 
 
 ### Instructions
 1. 

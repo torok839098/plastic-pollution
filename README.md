@@ -24,7 +24,7 @@
 
 
 ### Hosted Site (Heroku) https://plastic-pollution-1b0465c24684.herokuapp.com/ 
-
+![](https://github.com/mjardinico/plastic-pollution/blob/main/Resources/Flask_app_img.png)
 
 ### Instructions
 1. Open the following code to analyze about Plastic Waster being mismanaged in the Ocean using the following: [project_3_Teresa_mismanaged_waster.ipynb](https://github.com/mjardinico/plastic-pollution/blob/main/Resources/project_3_Teresa_mismanaged_waste.ipynb) 

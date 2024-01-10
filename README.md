@@ -30,7 +30,7 @@ https://plastic-pollution-1b0465c24684.herokuapp.com/
 
 2. Create Heatmap and map with markers to identify the 40,000 locations and top 1,000 locations that contribut to the plastic pollutions of river inputs around the world using Folium:  [Plastic Pollution of River Inputs](https://github.com/mjardinico/plastic-pollution/blob/main/folium_heatmap_marker.ipynb)
     
-    ![Plastic Pollution River Input Heatmap](https://github.com/mjardinico/plastic-pollution/blob/main/heatmap.html) 
+    ![Plastic Pollution River Input Heatmap](https://github.com/mjardinico/plastic-pollution/blob/main/Resources/40000_locations_river_inputs.png)
 
 
     ![Top 1000 locations that contribute to Plastic Pollution in oceans](https://github.com/mjardinico/plastic-pollution/blob/main/map_with_markers.html)

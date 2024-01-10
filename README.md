@@ -14,12 +14,14 @@
 1. Flask app - https://github.com/mjardinico/plastic-pollution/blob/main/app.py
 2. HTML files - https://github.com/mjardinico/plastic-pollution/tree/main/templates
 3. JavaScript / CSS files - https://github.com/mjardinico/plastic-pollution/tree/main/static
+4. Jupyter Notebook files - https://github.com/mjardinico/plastic-pollution/blob/main/Resources/project_3_Teresa_mismanaged_waste.ipynb 
 
 ### Hosted Site (Heroku)
 https://plastic-pollution-1b0465c24684.herokuapp.com/ 
 
 ### Instructions
-1. 
+1. Open the code to analyze about Plastic Waster being mismanaged in the Ocean using the following:  [project_3_Teresa_mismanaged_waster.ipynb](https://github.com/mjardinico/plastic-pollution/blob/main/Resources/project_3_Teresa_mismanaged_waste.ipynb) 
+
 2. 
     <!-- Add an image here -->
     <!-- ![horizontal bar chart](sorted_high.png) -->

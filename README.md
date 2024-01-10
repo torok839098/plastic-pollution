@@ -20,7 +20,7 @@
 
 
 ### Presentation Slides
-![Plastic Pollution - Global Crisis](https://github.com/mjardinico/plastic-pollution/blob/main/Resources/Plastic_Pollution.pdf)
+[Plastic Pollution - Global Crisis](https://github.com/mjardinico/plastic-pollution/blob/main/Resources/Plastic_Pollution.pdf)
 ### Hosted Site (Heroku)
 https://plastic-pollution-1b0465c24684.herokuapp.com/ 
 

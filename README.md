@@ -23,6 +23,8 @@
 [Plastic Pollution - Global Crisis](https://github.com/mjardinico/plastic-pollution/blob/main/Resources/Plastic_Pollution.pdf)
 ### Hosted Site (Heroku)
 https://plastic-pollution-1b0465c24684.herokuapp.com/ 
+![Plastic Pollution slide image](https://github.com/mjardinico/plastic-pollution/blob/main/Resources/plastic_pollution_slide1.png)
+
 
 ### Instructions
 1. Open the following code to analyze about Plastic Waster being mismanaged in the Ocean using the following:  [project_3_Teresa_mismanaged_waster.ipynb](https://github.com/mjardinico/plastic-pollution/blob/main/Resources/project_3_Teresa_mismanaged_waste.ipynb) 
@@ -34,7 +36,7 @@ https://plastic-pollution-1b0465c24684.herokuapp.com/
     ![Plastic Pollution River Input Heatmap](https://github.com/mjardinico/plastic-pollution/blob/main/Resources/40000_locations_river_inputs.png)
 
 
-    ![Top 1000 locations that contribute to Plastic Pollution in oceans](https://github.com/mjardinico/plastic-pollution/blob/main/map_with_markers.html)
+    ![Top 1000 locations that contribute to Plastic Pollution in oceans](https://github.com/mjardinico/plastic-pollution/blob/main/Resources/top_1000_river_inputs.png)
 3. 
     <!-- Add an image here -->
     <!-- ![bubble chart](https://github.com.png) -->

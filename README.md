@@ -1,5 +1,5 @@
 ##  Project 3
-* Project Name: Plastic Pollution
+* Project Name: Plastic Pollution - Global Crisis
 * Environmental Impact: Teresa Salazar
 * Team Members: Judd Sanders, Michael Jardinico, Kimberly Toro, Teresa Salazar, Scott Chen 
 * Date submitted: Jan 8, 2024
@@ -24,7 +24,6 @@
 
 
 ### Hosted Site (Heroku) https://plastic-pollution-1b0465c24684.herokuapp.com/ 
-![](https://github.com/mjardinico/plastic-pollution/blob/main/Resources/Flask_app_img.png)
 
 ### Instructions
 1. Open the following code to analyze about Plastic Waster being mismanaged in the Ocean using the following: [project_3_Teresa_mismanaged_waster.ipynb](https://github.com/mjardinico/plastic-pollution/blob/main/Resources/project_3_Teresa_mismanaged_waste.ipynb) 
@@ -37,33 +36,25 @@
     
     ![Plastic Pollution River Input Heatmap](https://github.com/mjardinico/plastic-pollution/blob/main/Resources/40000_locations_river_inputs.png)
 
-
     <!-- ![Top 1000 locations that contribute to Plastic Pollution in oceans](https://github.com/mjardinico/plastic-pollution/blob/main/Resources/top_1000_river_inputs.png) -->
-3. 
-    <!-- Add an image here -->
-    <!-- ![bubble chart](https://github.com.png) -->
 
-4. 
-    <!-- Add an image here -->
-    <!-- ![demographic info widget](https://github.com.png) -->
+3. Create interactive charts that displays years, location from a dropdown menu using JavaScript and D3.js.  
+    ![](https://github.com/mjardinico/plastic-pollution/blob/main/Resources/Flask_app_img.png)
 
-5. 
-    <!-- Add an image here -->
-    <!-- ![Belly Button Biodiversity Dashboard](https://github.com.png) -->
 
-6. 
-    <!-- Provide a link to the webpage here -->
+4. Enhance visualization of page using CSS file in static. Insert JavaScript file and CSS file into HTML. 
+
+5. Render HTML within the Flask app file. JS and CSS files must be in static folder and HTML file must be in templates folder.
 
 
 ### References
-Meijer et al. (2021). More than 1000 rivers account for 80% of global riverine plastic emissions into the ocean. Science Advances. – processed by Our World in Data. “Plastic waste emitted to the ocean per capita” [plastic-pollution- Mismanaged plastic waste to ocean per capita (kg per year)]. Meijer et al. (2021). More than 1000 rivers account for 80% of global riverine plastic emissions into the ocean. Science Advances. [original data].
+`Meijer et al. (2021). More than 1000 rivers account for 80% of global riverine plastic emissions into the ocean. Science Advances. – processed by Our World in Data. “Plastic waste emitted to the ocean per capita” [plastic-pollution- Mismanaged plastic waste to ocean per capita (kg per year)]. Meijer et al. (2021). More than 1000 rivers account for 80% of global riverine plastic emissions into the ocean. Science Advances. [original data].`
 
 National Oceanic and Atmospheric Administration:
-National Centers for Environmental Information provided Marine Microplastics Map Portal data [MarineMicroplastics.geojson,MarineMicroplastics_beaches.geojson]:
-https://www.ncei.noaa.gov/products/microplastics
+National Centers for Environmental Information provided Marine Microplastics Map Portal data [MarineMicroplastics.geojson,MarineMicroplastics_beaches.geojson](https://www.ncei.noaa.gov/products/microplastics)
 NOAA/ National Centers for Environmental Information (NCEI) (2022): Microplastics Database . [indicate subset used]. NOAA National Centers for Environmental Information. Accessed [date].
 
-Data Usage Disclaimer: Microplastics vary in origin, density, chemical properties, morphology, size and color. At present, there is no single combination of methods for sampling, extracting, analyzing, and reporting. Thus, the microplastic concentrations in the database may not always be comparable across studies. Users should consider the metadata in the archives which contain more details about the data records (such as sampling protocols and instrumental analysis) for further usability of the data.
+`Data Usage Disclaimer: Microplastics vary in origin, density, chemical properties, morphology, size and color. At present, there is no single combination of methods for sampling, extracting, analyzing, and reporting. Thus, the microplastic concentrations in the database may not always be comparable across studies. Users should consider the metadata in the archives which contain more details about the data records (such as sampling protocols and instrumental analysis) for further usability of the data.`
 
 ### Acknowledgements / Credits
 1. [plasticriverinput.csv](https://github.com/mjardinico/plastic-pollution/blob/main/Resources/plasticriverinput_area.csv). 

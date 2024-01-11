@@ -19,7 +19,7 @@
 
 
 ### Presentation Slides
-    - [Plastic Pollution - Global Crisis](https://github.com/mjardinico/plastic-pollution/blob/main/Resources/Plastic_Pollution.pdf)
+    [Plastic Pollution - Global Crisis](https://github.com/mjardinico/plastic-pollution/blob/main/Resources/Plastic_Pollution.pdf)
 
 
 ### Hosted Site (Heroku) https://plastic-pollution-1b0465c24684.herokuapp.com/ 
@@ -29,7 +29,7 @@
 
     ![Mismanaged Plastic Waste in Ocean Per Capita](https://github.com/mjardinico/plastic-pollution/blob/main/Resources/mismanaged_plastic_waste_to_ocean_per_capita.png)
 
-2. Create a heatmap using the Python library called Folium, where the Latitude, Longitude, Measurement are the fields to be considered in the dataset `MarineMicroplastics_oceanwater.csv`.
+2. Using the above code, create a heatmap using the Python library called Folium, where the Latitude, Longitude, Measurement are the fields to be considered in the dataset `MarineMicroplastics_oceanwater.csv`.
 
     ![Marine Microplast in Oceanwater](https://github.com/mjardinico/plastic-pollution/blob/main/Resources/marine_microplastics_img.png)
 
@@ -50,7 +50,7 @@
 5. Render HTML within the Flask app file. JS and CSS files must be in static folder and HTML file must be in templates folder.
 
 6. Option: Add an extra plastic bag counter being produced worldwide as of current date. 
-[Plastic Bag Counter Produced Worldwide](https://plastic-pollution-1b0465c24684.herokuapp.com/bagcounter) 
+    [Plastic Bag Counter Produced Worldwide](https://plastic-pollution-1b0465c24684.herokuapp.com/bagcounter) 
 
 
 ### References

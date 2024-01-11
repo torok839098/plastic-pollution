@@ -19,7 +19,7 @@
 
 
 ### Presentation Slides
-    https://github.com/mjardinico/plastic-pollution/blob/main/Resources/Plastic_Pollution.pdf
+    [Link to Presentation Slides in PDF](https://github.com/mjardinico/plastic-pollution/blob/main/Resources/Plastic_Pollution.pdf)
 
 
 ### Hosted Site (Heroku) https://plastic-pollution-1b0465c24684.herokuapp.com/ 

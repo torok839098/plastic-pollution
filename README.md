@@ -30,13 +30,16 @@
 
 ![Mismanaged Plastic Waste in Ocean Per Capita](https://github.com/mjardinico/plastic-pollution/blob/main/Resources/mismanaged_plastic_waste_to_ocean_per_capita.png)
 
+2. Create a heatmap using the Python library called Folium, where the Latitude, Longitude, Measurement are the fields to be considered in the dataset `MarineMicroplastics_oceanwater.csv`.
+![](https://github.com/mjardinico/plastic-pollution/blob/main/Resources/marine_microplastics_img.png)
 
-2. Create Heatmap and map with markers to identify the 40,000 locations and top 1,000 locations that contribute to the plastic pollutions of river inputs around the world using Folium:  
+
+2. Create map with markers to identify the top 1,000 locations that contribute to the plastic pollutions of river inputs around the world using Folium:  
 [folium_heatmap_marker.ipynb](https://github.com/mjardinico/plastic-pollution/blob/main/folium_heatmap_marker.ipynb)
     
-    ![Plastic Pollution River Input Heatmap](https://github.com/mjardinico/plastic-pollution/blob/main/Resources/40000_locations_river_inputs.png)
+    <!-- ![Plastic Pollution River Input Heatmap](https://github.com/mjardinico/plastic-pollution/blob/main/Resources/40000_locations_river_inputs.png) -->
 
-    <!-- ![Top 1000 locations that contribute to Plastic Pollution in oceans](https://github.com/mjardinico/plastic-pollution/blob/main/Resources/top_1000_river_inputs.png) -->
+     ![Top 1000 locations that contribute to Plastic Pollution in oceans](https://github.com/mjardinico/plastic-pollution/blob/main/Resources/top_1000_river_inputs.png)
 
 3. Create interactive charts that displays years, location from a dropdown menu using JavaScript and D3.js.  
     ![](https://github.com/mjardinico/plastic-pollution/blob/main/Resources/Flask_app_img.png)

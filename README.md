@@ -47,7 +47,7 @@
 5. Render HTML within the Flask app file. JS and CSS files must be in static folder and HTML file must be in templates folder.
 
 6. Option: Add an extra plastic bag counter being produced worldwide as of current date. 
-[](https://plastic-pollution-1b0465c24684.herokuapp.com/bagcounter) 
+[Plastic Bag Counter Produced Worldwide](https://plastic-pollution-1b0465c24684.herokuapp.com/bagcounter) 
 
 
 ### References

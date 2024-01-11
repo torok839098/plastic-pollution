@@ -42,15 +42,15 @@
 
      ![Top 1000 locations that contribute to Plastic Pollution in oceans](https://github.com/mjardinico/plastic-pollution/blob/main/Resources/top_1000_river_inputs.png)
 
-3. Create interactive charts that displays years, location from a dropdown menu using JavaScript and D3.js.  
+3. Create interactive charts that displays years, location from a dropdown menu using JavaScript and D3.js. Refer to codes inside `static/`, `templates/` folders
     ![](https://github.com/mjardinico/plastic-pollution/blob/main/Resources/Flask_app_img.png)
 
 
-4. Enhance visualization of page using CSS file in static. Insert JavaScript file and CSS file into HTML. 
+4. Enhance visualization of page using CSS file in `static/` folder. Insert JavaScript file and CSS file into HTML. 
 
-5. Render HTML within the Flask app file. JS and CSS files must be in static folder and HTML file must be in templates folder.
+5. Render HTML within the Flask app file `app.py`. JS and CSS files must be in static folder and HTML file must be in templates folder.
 
-6. Option: Add an extra plastic bag counter being produced worldwide as of current date. 
+6. Using the `counter.css` in `static/` and `counter.html` in `templates/` add `<iframe>` to create the plastic bag counter being produced worldwide. 
     [Plastic Bag Counter Produced Worldwide](https://plastic-pollution-1b0465c24684.herokuapp.com/bagcounter) 
 
 

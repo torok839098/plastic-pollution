@@ -46,6 +46,9 @@
 
 5. Render HTML within the Flask app file. JS and CSS files must be in static folder and HTML file must be in templates folder.
 
+6. Option: Add an extra plastic bag counter being produced worldwide as of current date. 
+[](https://plastic-pollution-1b0465c24684.herokuapp.com/bagcounter) 
+
 
 ### References
 `Meijer et al. (2021). More than 1000 rivers account for 80% of global riverine plastic emissions into the ocean. Science Advances. – processed by Our World in Data. “Plastic waste emitted to the ocean per capita” [plastic-pollution- Mismanaged plastic waste to ocean per capita (kg per year)]. Meijer et al. (2021). More than 1000 rivers account for 80% of global riverine plastic emissions into the ocean. Science Advances. [original data].`

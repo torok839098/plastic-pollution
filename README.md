@@ -1,8 +1,7 @@
 ##  Project 3
 * Project Name: Plastic Pollution - Global Crisis
-* Environmental Impact: Teresa Salazar
-* Team Members: Judd Sanders, Michael Jardinico, Kimberly Toro, Teresa Salazar, Scott Chen 
-* Date submitted: Jan 8, 2024
+* Team Members: Judd Sanders, Michael Jardinico, Kimberly Toro, Teresa Salazar, Scott Chen
+* Date Submitted: Jan 12, 2024
 
 ### Project Overview
 `The primary objective of this analysis is aimed to thoroughly assess the effects of plastic pollution on the health of the global environment and ecosystems. Utilizing existing worldwide data, it reveals the stark truth that Plastic Pollution poses a considerable threat to both the global environment and health, underlining the pressing nature as an urgent global crisis. `
@@ -31,7 +30,8 @@
 ![Mismanaged Plastic Waste in Ocean Per Capita](https://github.com/mjardinico/plastic-pollution/blob/main/Resources/mismanaged_plastic_waste_to_ocean_per_capita.png)
 
 2. Create a heatmap using the Python library called Folium, where the Latitude, Longitude, Measurement are the fields to be considered in the dataset `MarineMicroplastics_oceanwater.csv`.
-![](https://github.com/mjardinico/plastic-pollution/blob/main/Resources/marine_microplastics_img.png)
+
+![Marine Microplast in Oceanwater](https://github.com/mjardinico/plastic-pollution/blob/main/Resources/marine_microplastics_img.png)
 
 
 2. Create map with markers to identify the top 1,000 locations that contribute to the plastic pollutions of river inputs around the world using Folium:  

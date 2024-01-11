@@ -22,7 +22,8 @@
 [Link to Presentation Slides in PDF](https://github.com/mjardinico/plastic-pollution/blob/main/Resources/Plastic_Pollution.pdf)
 
 
-### Hosted Site (Heroku) https://plastic-pollution-1b0465c24684.herokuapp.com/ 
+
+### Hosted Site (Heroku):  https://plastic-pollution-1b0465c24684.herokuapp.com/ 
 
 ### Instructions
 1. Open the following code to analyze about Plastic Waster being mismanaged in the Ocean using the following: [project_3_Teresa_mismanaged_waster.ipynb](https://github.com/mjardinico/plastic-pollution/blob/main/Resources/project_3_Teresa_mismanaged_waste.ipynb) 

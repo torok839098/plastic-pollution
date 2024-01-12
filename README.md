@@ -52,6 +52,7 @@
 
 6. Using the `counter.css` in `static/` and `counter.html` in `templates/` add `<iframe>` to create the plastic bag counter being produced worldwide. 
     [Plastic Bag Counter Produced Worldwide](https://plastic-pollution-1b0465c24684.herokuapp.com/bagcounter) 
+7.Using the code, attached below to see if determine if there is a relationship between legislation types implemented and plastic waste generated. The following code also includes comparison of Global Laws Database and more information of global action on plastic pollution. Refer to references on dataset used ("Country-level plastic bag legislation....") and Global Laws.org.
 
 
 ### References
@@ -62,6 +63,27 @@ National Centers for Environmental Information provided Marine Microplastics Map
 NOAA/ National Centers for Environmental Information (NCEI) (2022): Microplastics Database . [indicate subset used]. NOAA National Centers for Environmental Information. Accessed [date].
 
 `Data Usage Disclaimer: Microplastics vary in origin, density, chemical properties, morphology, size and color. At present, there is no single combination of methods for sampling, extracting, analyzing, and reporting. Thus, the microplastic concentrations in the database may not always be comparable across studies. Users should consider the metadata in the archives which contain more details about the data records (such as sampling protocols and instrumental analysis) for further usability of the data.`
+
+Biography: Gibson, Lydia (2020), “Country-level plastic bag legislation against plastic waste and select Human Development Indices”, Mendeley Data, V1, doi: 10.17632/wtvnv9fv44.1 
+
+“From Birth to Ban: A History of the Plastic Shopping Bag.” UNEP, UN Environment Programme, 20Dec.2021,www.unep.org/news-and-stories/story/birth-ban-history-plastic-shopping-bag#:~:text=2002%20%E2%80%93%20Bangladesh%20is%20the%20first,countries%20begin%20to%20follow%20suit. 
+
+“Global Plastic Laws.” Global Plastic Laws, 14 Oct. 2023, www.globalplasticlaws.org/. 
+Hannah Ritchie, Veronika Samborska and Max Roser (2023) - “Plastic Pollution” Published online at OurWorldInData.org. Retrieved from: 'https://ourworldindata.org/plastic-pollution' [Online Resource]
+
+Gregli-Msft. “Color Enumeration and Colorfade, ColorValue, and RGBA Functions - Power Platform.” Power Platform | Microsoft Learn, learn.microsoft.com/en-us/power-platform/power-fx/reference/function-colors. Accessed Dec. 2023. 
+
+Initial Considerations Inc-1 - United Nations Environment Programme, 2023, apps1.unep.org/resolutions/uploads/briefing_-_initial_considerations_for_inc-1_2022.pdf. 
+
+Jahan, A R Tahseen. “What Happened to Bangladesh’s Polythene Ban?” The Confluence, 8 Oct. 2023, theConfluence.blog/what-happened-to-bangladeshs-polythene-ban/#:~:text=However%2C%20legal%20ban%20on%20polythene,According%20to%20the%20World%20Bank. 
+
+“Plastic Pollution Facts.” Plastic Pollution Coalition, 31 Aug. 2023, www.plasticpollutioncoalition.org/learn/plastic-pollution-facts. 
+                                                                                                                              Principal Technical Advisor and Global Lead on Plastics Offer. “A Global Treaty to End Plastic Pollution Is in Sight.” UNDP, 22 Nov. 2023, www.undp.org/blog/global-treaty-end-plastic-pollution-sight. 
+
+Sahoo, Soumendra Kumar. “Usage of Forward Slash (/) in Python.” DEV Community, DEV Community, 6 Dec. 2022, dev.to/soumendrak/usage-of-forward-slash-in-python-41no. 
+Stoel, Geoffrey. “Why Can’t Pandas Handle Decimals for Plotting?” Stack Overflow, 1 Nov.1961,stackoverflow.com/questions/33488542/why-cant-pandas-handle-decimals-for-plotting
+
+
 
 ### Acknowledgements / Credits
 1. [plasticriverinput.csv](https://github.com/mjardinico/plastic-pollution/blob/main/Resources/plasticriverinput_area.csv). 

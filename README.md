@@ -25,6 +25,7 @@
 
 ### Hosted Site (Heroku):  https://plastic-pollution-1b0465c24684.herokuapp.com/ 
 
+
 ### Instructions
 1. Open the following code to analyze about Plastic Waster being mismanaged in the Ocean using the following: [project_3_Teresa_mismanaged_waster.ipynb](https://github.com/mjardinico/plastic-pollution/blob/main/Resources/project_3_Teresa_mismanaged_waste.ipynb) 
 
@@ -34,37 +35,37 @@
 
     ![Marine Microplast in Oceanwater](https://github.com/mjardinico/plastic-pollution/blob/main/Resources/marine_microplastics_img.png)
 
+3. In this project, we used Google map API geocode library called GoogleV3. Refer to [geocoordinates.ipynb](https://github.com/mjardinico/plastic-pollution/blob/main/geo_coordinates.ipynb). The code's purpose is to extract the actual geolocation names of the coordinates provided in the raw dataset /`Resources/coordinates_test2.csv`. The result is used as an input dataset in the following step #4. (Note: Google Map Geocoding API is a paid service. We have disabled our API key on this code after we have extracted the desired data.)
 
-2. Create map with markers to identify the top 1,000 locations that contribute to the plastic pollutions of river inputs around the world using Folium:  
+4. Create map with markers to identify the top 1,000 locations that contribute to the plastic pollutions of river inputs around the world using Folium:  
 [folium_heatmap_marker.ipynb](https://github.com/mjardinico/plastic-pollution/blob/main/folium_heatmap_marker.ipynb)
     
     <!-- ![Plastic Pollution River Input Heatmap](https://github.com/mjardinico/plastic-pollution/blob/main/Resources/40000_locations_river_inputs.png) -->
 
      ![Top 1000 locations that contribute to Plastic Pollution in oceans](https://github.com/mjardinico/plastic-pollution/blob/main/Resources/top_1000_river_inputs.png)
 
-3. Create interactive charts that displays years, location from a dropdown menu using JavaScript and D3.js. Refer to codes inside `static/`, `templates/` folders
+5. Starting here, we will create the actual Flask app and will host in Heroku: 
+Create interactive charts that display years, location from a dropdown menu using JavaScript and D3.js. Refer to codes inside `/static`, `/templates` folders
     ![](https://github.com/mjardinico/plastic-pollution/blob/main/Resources/Flask_app_img.png)
 
 
-4. Enhance visualization of page using CSS file in `static/` folder. Insert JavaScript file and CSS file into HTML. 
+6. Enhance visualization of page using CSS file in `/static` folder. Insert JavaScript file and CSS file into HTML. 
 
-5. Render HTML within the Flask app file `app.py`. JS and CSS files must be in static folder and HTML file must be in templates folder.
+7. Render HTML within the Flask app file `app.py`. JS and CSS files must be in static folder and HTML file must be in templates folder.
 
-6. Using the `counter.css` in `static/` and `counter.html` in `templates/` add `<iframe>` to create the plastic bag counter being produced worldwide. 
+8. Using the `counter.css` in `static/` and `counter.html` in `templates/` add `<iframe>` to create the plastic bag counter being produced worldwide. 
     [Plastic Bag Counter Produced Worldwide](https://plastic-pollution-1b0465c24684.herokuapp.com/bagcounter) 
 
 
-### References
+### References / Credits
+1. [MarineMicroplastics.geojson, MarineMicroplastics_beaches.geojson](https://www.ncei.noaa.gov/products/microplastics).
 `Meijer et al. (2021). More than 1000 rivers account for 80% of global riverine plastic emissions into the ocean. Science Advances. – processed by Our World in Data. “Plastic waste emitted to the ocean per capita” [plastic-pollution- Mismanaged plastic waste to ocean per capita (kg per year)]. Meijer et al. (2021). More than 1000 rivers account for 80% of global riverine plastic emissions into the ocean. Science Advances. [original data].`
 
-National Oceanic and Atmospheric Administration:
-National Centers for Environmental Information provided Marine Microplastics Map Portal data [MarineMicroplastics.geojson,MarineMicroplastics_beaches.geojson](https://www.ncei.noaa.gov/products/microplastics)
-NOAA/ National Centers for Environmental Information (NCEI) (2022): Microplastics Database . [indicate subset used]. NOAA National Centers for Environmental Information. Accessed [date].
-
-`Data Usage Disclaimer: Microplastics vary in origin, density, chemical properties, morphology, size and color. At present, there is no single combination of methods for sampling, extracting, analyzing, and reporting. Thus, the microplastic concentrations in the database may not always be comparable across studies. Users should consider the metadata in the archives which contain more details about the data records (such as sampling protocols and instrumental analysis) for further usability of the data.`
-
-### Acknowledgements / Credits
-1. [plasticriverinput.csv](https://github.com/mjardinico/plastic-pollution/blob/main/Resources/plasticriverinput_area.csv). 
+2. [plasticriverinput.csv](https://github.com/mjardinico/plastic-pollution/blob/main/Resources/plasticriverinput_area.csv). 
 `Meijer et al. (2021). More than 1000 rivers account for 80% of global riverine plastic emissions into the ocean. Science Advances. – processed by Our World in Data`
 
-2. 
+3. [recycled_plastic.json](https://ourworldindata.org/grapher/share-plastic-fate?tab=table).
+`OECD (2023) – processed by Our World in Data. “Recycled” [dataset]. OECD, “Global Plastics Outlook - Plastics waste by region and end-of-life fate” [original data].`
+
+### Disclaimer
+`Data Usage Disclaimer - Microplastics vary in origin, density, chemical properties, morphology, size and color. At present, there is no single combination of methods for sampling, extracting, analyzing, and reporting. Thus, the microplastic concentrations in the database may not always be comparable across studies. Users should consider the metadata in the archives which contain more details about the data records (such as sampling protocols and instrumental analysis) for further usability of the data.`
